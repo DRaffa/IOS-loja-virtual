@@ -15,6 +15,9 @@
 		53361F152527E3C4009E9BD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53361F132527E3C4009E9BD2 /* LaunchScreen.storyboard */; };
 		53361F202527E3C5009E9BD2 /* LojaVirtualTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53361F1F2527E3C5009E9BD2 /* LojaVirtualTests.swift */; };
 		53361F2B2527E3C5009E9BD2 /* LojaVirtualUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53361F2A2527E3C5009E9BD2 /* LojaVirtualUITests.swift */; };
+		5347BFAA2527F51B0013B6E4 /* ProdutosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5347BFA92527F51B0013B6E4 /* ProdutosTableViewController.swift */; };
+		5347BFB32527FD040013B6E4 /* Produto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5347BFB22527FD040013B6E4 /* Produto.swift */; };
+		5347BFB82527FDFB0013B6E4 /* ProdutoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5347BFB72527FDFB0013B6E4 /* ProdutoVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		53361F262527E3C5009E9BD2 /* LojaVirtualUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LojaVirtualUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		53361F2A2527E3C5009E9BD2 /* LojaVirtualUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LojaVirtualUITests.swift; sourceTree = "<group>"; };
 		53361F2C2527E3C5009E9BD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5347BFA92527F51B0013B6E4 /* ProdutosTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProdutosTableViewController.swift; sourceTree = "<group>"; };
+		5347BFB22527FD040013B6E4 /* Produto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Produto.swift; sourceTree = "<group>"; };
+		5347BFB72527FDFB0013B6E4 /* ProdutoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProdutoVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,8 @@
 		53361F072527E3C2009E9BD2 /* LojaVirtual */ = {
 			isa = PBXGroup;
 			children = (
+				5347BFB12527FCEE0013B6E4 /* Models */,
+				5347BFA82527F4B10013B6E4 /* View */,
 				53361F082527E3C2009E9BD2 /* AppDelegate.swift */,
 				53361F0A2527E3C2009E9BD2 /* SceneDelegate.swift */,
 				53361F0C2527E3C2009E9BD2 /* ViewController.swift */,
@@ -126,6 +134,23 @@
 				53361F2C2527E3C5009E9BD2 /* Info.plist */,
 			);
 			path = LojaVirtualUITests;
+			sourceTree = "<group>";
+		};
+		5347BFA82527F4B10013B6E4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5347BFA92527F51B0013B6E4 /* ProdutosTableViewController.swift */,
+				5347BFB72527FDFB0013B6E4 /* ProdutoVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5347BFB12527FCEE0013B6E4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5347BFB22527FD040013B6E4 /* Produto.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +284,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				53361F0D2527E3C2009E9BD2 /* ViewController.swift in Sources */,
+				5347BFAA2527F51B0013B6E4 /* ProdutosTableViewController.swift in Sources */,
+				5347BFB82527FDFB0013B6E4 /* ProdutoVC.swift in Sources */,
 				53361F092527E3C2009E9BD2 /* AppDelegate.swift in Sources */,
+				5347BFB32527FD040013B6E4 /* Produto.swift in Sources */,
 				53361F0B2527E3C2009E9BD2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
